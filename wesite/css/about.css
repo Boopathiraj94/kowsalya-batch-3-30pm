@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5%;
+    background: linear-gradient(to right, black 70%, #195d77cf);
+    flex-wrap: wrap;
+   
+}
+
+header span {
+    font-size: 32px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    align-self: center;
+}
+
+header .menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .icons {
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu li,
+header .icons li {
+    list-style: none;
+    align-self: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header ul li button {
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    background: #ffbe33;
+    border-radius: 50px;
+}
+.feane {
+  /* border: 1px solid blue; */
+  height: 100vh;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 5%; */
+  background-color: #222831;
+}
+
+.feane .first {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+}
+
+.feane .first>img {
+  width: 450px;
+
+}
+
+.feane .first .feane-info {
+
+  /* border: 1px solid; */
+  width: 700px;
+  padding: 70px;
+
+
+}
+
+.feane .first .feane-info h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 18px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.feane .first .feane-info p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+}
+
+.feane .first .feane-info .feane-footer {
+
+
+  margin-top: 40px;
+
+}
+
+.feane .first .feane-info .feane-footer a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 15px 39px;
+
+  margin-top: 30px;
+  background-color: #ffbe33;
+  border-radius: 50px;
+}
+.contact{
+  /* border: 1px solid; */
+  /* height: 80vh; */
+  
+   background-color: #222831;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 70px; */
+
+    
+ 
+}
+
+.contact .con-box{
+  /* border: 1px solid red; */
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+
+ 
+}
+
+.con-box .contact-box1{
+  width: 500px;
+   height: 400px;
+  /* border: 1px solid;  */
+
+}
+.con-box .contact-box1 h2{
+   font-family: "Dancing Script", cursive;
+   font-size: 28px;
+   font-weight: 700;
+   text-align: center;
+}
+.con-box .contact-box1 .contact-icon ul li{
+color: white;
+text-align: center;
+padding-bottom: 15px;
+list-style: none;
+}
+.con-box .contact-box1 .contact-icon a{
+color: white;
+font-size: 17px;
+
+
+}
+.con-box .contact-box1 .contact-icon ul #flow{
+padding-left: 3%;
+}
+ .contact-box1 .contact-icon{
+  /* border: 1px solid; */
+  margin-top: 30px;
+ 
+ }
+ 
+
+
+.con-box .contact-box2{
+   width: 500px;
+    height: 400px;
+  /* border: 1px solid ; */
+ 
+ 
+}
+.con-box .contact-box2 h2{
+   font-family: "Dancing Script", cursive;
+   font-size: 35px;
+   font-weight: 700;
+   text-align: center;
+}
+.con-box .contact-box2 pre{
+  padding: 30px 50px;
+  line-height: 1.6;
+  font-size: 17px;
+
+ 
+  
+  text-align: center;
+   
+}
+.con-box .contact-box2 span ul{
+ /* border: 1px solid; */
+ display: flex;
+ padding-left: 37%;
+
+ 
+ 
+
+}
+.con-box .contact-box2 span ul li {
+padding: 8px;
+list-style: none;
+border: 1px solid;
+border-radius: 50px;
+ background-color: white;
+  color:  #222831;
+   margin-left: 4px;
+
+}
+.contact-box2 span ul li:hover i{
+  color: #d49c22;
+}
+
+
+.con-box .hours{
+   width: 500px;
+   height: 400px;
+  /* border: 1px solid ; */
+}
+.con-box .hours h2{
+   font-family: "Dancing Script", cursive;
+   font-size: 29px;
+   font-weight: 700;
+   padding-bottom: 25px;
+   text-align: center;
+}
+.con-box .hours p{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+ .con-box .hours span{
+  padding-left: 35%;
+  font-size: 17px;
+}
+.contact-footer{
+  /* border: 1px solid; */
+  margin-top: 30px;
+  font-size: 18;
+ 
+
+  
+}
+
+.contact-footer .con{
+  padding-left: 30% ;
+ 
+}
+

@@ -1,0 +1,772 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  height: 100vh;
+  background: url("../images/hero-bg.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.banner header {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 5%;
+}
+
+.banner header span {
+  font-size: 32px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 800;
+  align-self: center;
+}
+
+.banner header .menu {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner header .icons {
+  width: 12%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner header .menu li,
+.banner header .icons li {
+  list-style: none;
+  align-self: center;
+}
+
+.banner header ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.banner header ul li button {
+  border: none;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  background: #ffbe33;
+  border-radius: 50px;
+}
+
+.banner .banner-box {
+  color: white;
+  /* border: 2px solid white; */
+  width: 600px;
+  position: absolute;
+  left: 14%;
+  top: 30%;
+  height: 250px;
+}
+
+.banner .banner-box h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.banner .banner-box p {
+  font-size: 15px;
+}
+
+.banner .banner-box a {
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid white; */
+  padding: 15px 28px;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #ffbe33;
+  border-radius: 50px;
+}
+
+.offer-box {
+  /* border: 1px solid blue; */
+  /* height: 40vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+  position: relative;
+}
+
+.offer-box .box1 {
+  /* border: 1px solid red; */
+  width: 500px;
+  height: 230px;
+
+  margin: 0 30px;
+  background-color: rgba(0, 0, 0, 0.881);
+  color: white;
+  display: flex;
+
+  border-radius: 9px;
+  position: relative;
+  overflow: hidden;
+}
+
+.offer-box .box1 .info {
+  /* border: 1px solid; */
+  margin-top: 20px;
+}
+
+.offer-box .box1 .info h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.offer-box .box1 .info p {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.offer-box .box1 .info span {
+  font-family: "Dancing Script", cursive;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.offer-box .box1 .info a {
+  display: inline-block;
+  width: 180px;
+  /* border: 1px solid; */
+  padding: 11px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+
+  background-color: #ffbe33;
+  border-radius: 50px;
+}
+
+.offer-box .box1 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 15px 20px;
+
+  border: 5px solid #ffbe33;
+}
+
+.offer-box .box1 .inside-box1 {
+  position: absolute;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 100%;
+  left: -600px;
+  background: rgba(32, 113, 87, 0.398);
+
+
+}
+
+.center-banner {
+  /* height: 100vh; */
+}
+
+.center-banner .container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+
+
+}
+
+.center-banner .cart h2 {
+  /* border: 1px solid; */
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.center-banner nav {
+  /* border: 1px solid; */
+  text-align: center;
+  margin-top: 55px;
+}
+
+.center-banner a {
+
+  font-size: 18px;
+  padding: 30px;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* nav #box{
+  border: 1px solid;
+
+ 
+
+ 
+} */
+
+
+.center-banner .cart-img {
+  /* border: 1px solid; */
+  width: 370px;
+  height: 450px;
+
+
+
+
+  background: linear-gradient(to bottom, #f1f2f3 20px, #222831 20px);
+
+
+
+
+}
+
+.center-banner .cart-img .cart-box {
+  /* border: 1px solid; */
+  height: 240px;
+  border-radius: 0 0 0 55px;
+  background-color: #f1f2f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center-banner .cart-img .cart-box>img {
+  width: 170px;
+
+
+}
+
+.cart-footer {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cart-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px 48px;
+
+  margin-top: 30px;
+  background-color: #fcbf3c;
+  border-radius: 50px;
+
+}
+
+.cart-footer:hover a {
+  background-color: #d89505;
+}
+
+.cart-img .cart-info {
+  /* border: 1px solid; */
+  padding: 27px;
+  background-color: #222831;
+
+  color: white;
+
+}
+
+.cart-img .cart-info h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.cart-img .cart-info p {
+  line-height: 1.5;
+}
+
+.cart-info .footer {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+
+
+}
+
+.cart-info .footer span {
+  font-size: 16px;
+  margin-top: 10px;
+
+
+
+}
+
+.cart-info .footer .icon ul {
+  list-style: none;
+  /* border: 1px solid; */
+  height: 43px;
+  width: 43px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #ffbe33;
+
+
+}
+
+.feane {
+  /* border: 1px solid blue; */
+  /* height: 100vh; */
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  background-color: #222831;
+}
+
+.feane .first {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+}
+
+.feane .first>img {
+  width: 450px;
+
+}
+
+.feane .first .feane-info {
+
+  /* border: 1px solid; */
+  width: 700px;
+  padding: 70px;
+
+
+}
+
+.feane .first .feane-info h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 18px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+}
+
+.feane .first .feane-info p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: white;
+}
+
+.feane .first .feane-info .feane-footer {
+
+
+  margin-top: 40px;
+
+}
+
+.feane .first .feane-info .feane-footer a {
+
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 15px 39px;
+
+  margin-top: 30px;
+  background-color: #ffbe33;
+  border-radius: 50px;
+}
+
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+  gap: 20px;
+}
+
+.table .table-form {
+  /* border: 1px solid; */
+  /* height: 650px; */
+  width: 600px;
+
+}
+
+.table .table-form h2 {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Dancing Script", cursive;
+  /* margin-top: 14%; */
+  padding: 0 20px;
+
+
+}
+
+.table .table-form .input1 {
+  margin: 6% 0;
+  padding: 0 20px;
+}
+
+.input1 input,
+.input1 select {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  padding: 0 15px;
+  border-radius: 10px;
+}
+
+
+.table .table-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 13px 47px;
+
+  margin: 30px 20px;
+  background-color: #ffbe33;
+  border-radius: 50px;
+}
+
+.table .map {
+  display: flex;
+  /* border: 1px solid; */
+  border-radius: 10px;
+  margin-top: 15px;
+
+}
+
+.table .map iframe {
+  /* border: 1px solid; */
+  width: 500px;
+  height: 380px;
+  border-radius: 10px;
+
+}
+
+.web-footer {
+  /* border: 1px solid; */
+  /* height: 70vh; */
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.web-footer .web-box1 {
+  border: 1px solid;
+  width: 600px;
+  /* height: 200px; */
+
+  margin: 30px 20px;
+
+  color: white;
+  border-radius: 10px;
+
+}
+
+.web-footer .wbox {
+  background-color: #222831;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.web-footer .web-box1 h3 {
+  padding-top: 20px;
+  line-height: 1.5;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.web-footer .web-box1 p {
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 500;
+}
+
+.head>h2 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.footer-img {
+  /* border: 1px solid red; */
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  outline: 5px solid #ffbe33;
+  overflow: hidden;
+  object-fit: cover;
+  margin-top: 5%;
+}
+
+.footer-img>img {
+  width: 110px;
+  height: 110px;
+  /* border: 1px solid; */
+}
+
+
+.footer-icon {
+  /* border: 1px solid blue; */
+  /* border: 1px solid red; */
+  text-align: center;
+
+
+
+}
+
+.footer-icon .fa {
+
+  border-radius: 50%;
+  /* display: inline-block; */
+  /* width: 50px;
+  height: 50px; */
+  padding: 13px 17px;
+  align-self: center;
+  /* border: 2px solid blue; */
+  background-color: #d49c22;
+  font-size: 20px;
+  color: white;
+}
+
+.contact {
+  border: 1px solid;
+  /* height: 80vh; */
+  background-color: #222831;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+
+
+
+}
+
+.contact .con-box {
+  /* border: 1px solid red; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5%;
+
+
+
+}
+
+.con-box .contact-box1 {
+  width: 500px;
+  height: 400px;
+  /* border: 1px solid;  */
+
+}
+
+.con-box .contact-box1 h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.con-box .contact-box1 .contact-icon ul li {
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+  list-style: none;
+}
+
+.con-box .contact-box1 .contact-icon a {
+  color: white;
+  font-size: 17px;
+
+
+}
+
+.con-box .contact-box1 .contact-icon ul #flow {
+  padding-left: 3%;
+}
+
+.contact-box1 .contact-icon {
+  /* border: 1px solid; */
+  margin-top: 30px;
+
+}
+
+
+
+.con-box .contact-box2 {
+  width: 500px;
+  height: 400px;
+  /* border: 1px solid ; */
+
+
+}
+
+.con-box .contact-box2 h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.con-box .contact-box2 pre {
+  padding: 30px 50px;
+  line-height: 1.6;
+  font-size: 17px;
+
+
+
+  text-align: center;
+
+}
+
+.con-box .contact-box2 span ul {
+  /* border: 1px solid; */
+  display: flex;
+  padding-left: 37%;
+
+
+
+
+}
+
+.con-box .contact-box2 span ul li {
+  padding: 8px;
+  list-style: none;
+  border: 1px solid;
+  border-radius: 50px;
+  background-color: white;
+  color: #222831;
+  margin-left: 4px;
+
+}
+
+.contact-box2 span ul li:hover i {
+  color: #d49c22;
+}
+
+
+.con-box .hours {
+  width: 500px;
+  height: 400px;
+  /* border: 1px solid ; */
+}
+
+.con-box .hours h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 29px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.con-box .hours p {
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+.con-box .hours span {
+  padding-left: 35%;
+  font-size: 17px;
+}
+
+.contact-footer {
+  /* border: 1px solid; */
+  margin-top: 30px;
+  font-size: 18;
+
+
+
+}
+
+.contact-footer .con {
+  padding-left: 30%;
+
+}
+
+.fa-bars {
+  display: none;
+}
+
+@media all and (max-width:500px) {
+
+  .banner header {
+    background-color: darkcyan;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5%;
+    flex-direction: column;
+    position: relative;
+    z-index: 99;
+  }
+
+  .fa-bars {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 45px;
+    font-size: 1.8rem;
+  }
+
+  .banner header span {
+    font-size: 3rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    align-self: start;
+  }
+
+  .banner header .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .banner header .icons {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
+
+  .banner header .menu li,
+  .banner header .icons li {
+    list-style: none;
+    align-self: center;
+    padding: 9px 0;
+  }
+
+  #barss:checked~.menu,
+  #barss:checked~.icons {
+    display: none;
+  }
+
+}

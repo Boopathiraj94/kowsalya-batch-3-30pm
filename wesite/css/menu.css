@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5%;
+    background: linear-gradient(to right, black 70%, #195d77cf);
+    flex-wrap: wrap;
+   
+}
+
+header span {
+    font-size: 32px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    align-self: center;
+}
+
+header .menu {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .icons {
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu li,
+header .icons li {
+    list-style: none;
+    align-self: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header ul li button {
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    background: #ffbe33;
+    border-radius: 50px;
+}
+ .banner-box {
+  color: white;
+  /* border: 2px solid white; */
+  width: 600px;
+  position: absolute;
+  left: 14%;
+  top: 30%;
+  height: 250px;
+  flex-wrap: wrap;
+}
+
+ .banner-box h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+ .banner-box p {
+  font-size: 15px;
+}
+
+ .banner-box a {
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid white; */
+  padding: 15px 28px;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: #ffbe33;
+  border-radius: 50px;
+}
+
+
+
+.center-banner {
+  /* height: 100vh; */
+  /* border: 1px solid red; */
+  margin-top: 5%;
+}
+
+.center-banner .container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+
+
+}
+
+.center-banner .cart h2 {
+  /* border: 1px solid; */
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.center-banner nav {
+  /* border: 1px solid; */
+  text-align: center;
+  margin-top: 55px;
+}
+
+.center-banner a {
+
+  font-size: 18px;
+  padding: 30px;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* nav #box{
+  border: 1px solid;
+
+ 
+
+ 
+} */
+
+
+.center-banner .cart-img {
+  /* border: 1px solid; */
+  width: 370px;
+  height: 450px;
+
+
+
+
+  background: linear-gradient(to bottom, #f1f2f3 20px, #222831 20px);
+
+
+
+
+}
+
+.center-banner .cart-img .cart-box {
+  /* border: 1px solid; */
+  height: 240px;
+  border-radius: 0 0 0 55px;
+  background-color: #f1f2f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.center-banner .cart-img .cart-box>img {
+  width: 170px;
+
+
+}
+
+.cart-footer {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cart-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px 48px;
+
+  margin-top: 30px;
+  background-color: #fcbf3c;
+  border-radius: 50px;
+
+}
+
+.cart-footer:hover a {
+  background-color: #d89505;
+}
+
+.cart-img .cart-info {
+  /* border: 1px solid; */
+  padding: 27px;
+  background-color: #222831;
+
+  color: white;
+
+}
+
+.cart-img .cart-info h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.cart-img .cart-info p {
+  line-height: 1.5;
+}
+
+.cart-info .footer {
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+
+
+}
+
+.cart-info .footer span {
+  font-size: 16px;
+  margin-top: 10px;
+
+
+
+}
+
+.cart-info .footer .icon ul {
+  list-style: none;
+  /* border: 1px solid; */
+  height: 43px;
+  width: 43px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #ffbe33;
+
+
+}
+.contact{
+  border: 1px solid;
+  /* height: 80vh; */
+   background-color: #222831;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+
+    
+ 
+}
+
+.contact .con-box{
+  /* border: 1px solid red; */
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+margin-top: 5%;
+
+
+ 
+}
+
+.con-box .contact-box1{
+  width: 500px;
+   height: 400px;
+  /* border: 1px solid;  */
+
+}
+.con-box .contact-box1 h2{
+   font-family: "Dancing Script", cursive;
+   font-size: 28px;
+   font-weight: 700;
+   text-align: center;
+}
+.con-box .contact-box1 .contact-icon ul li{
+color: white;
+text-align: center;
+padding-bottom: 15px;
+list-style: none;
+}
+.con-box .contact-box1 .contact-icon a{
+color: white;
+font-size: 17px;
+
+
+}
+.con-box .contact-box1 .contact-icon ul #flow{
+padding-left: 3%;
+}
+ .contact-box1 .contact-icon{
+  /* border: 1px solid; */
+  margin-top: 30px;
+ 
+ }
+ 
+
+
+.con-box .contact-box2{
+   width: 500px;
+    height: 400px;
+  /* border: 1px solid ; */
+ 
+ 
+}
+.con-box .contact-box2 h2{
+   font-family: "Dancing Script", cursive;
+   font-size: 35px;
+   font-weight: 700;
+   text-align: center;
+}
+.con-box .contact-box2 pre{
+  padding: 30px 50px;
+  line-height: 1.6;
+  font-size: 17px;
+
+ 
+  
+  text-align: center;
+   
+}
+.con-box .contact-box2 span ul{
+ /* border: 1px solid; */
+ display: flex;
+ padding-left: 37%;
+
+ 
+ 
+
+}
+.con-box .contact-box2 span ul li {
+padding: 8px;
+list-style: none;
+border: 1px solid;
+border-radius: 50px;
+ background-color: white;
+  color:  #222831;
+   margin-left: 4px;
+
+}
+.contact-box2 span ul li:hover i{
+  color: #d49c22;
+}
+
+
+.con-box .hours{
+   width: 500px;
+   height: 400px;
+  /* border: 1px solid ; */
+}
+.con-box .hours h2{
+   font-family: "Dancing Script", cursive;
+   font-size: 29px;
+   font-weight: 700;
+   padding-bottom: 25px;
+   text-align: center;
+}
+.con-box .hours p{
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+ .con-box .hours span{
+  padding-left: 35%;
+  font-size: 17px;
+}
+.contact-footer{
+  /* border: 1px solid; */
+  margin-top: 30px;
+  font-size: 18;
+ 
+
+  
+}
+
+.contact-footer .con{
+  padding-left: 30% ;
+ 
+}
+
+
